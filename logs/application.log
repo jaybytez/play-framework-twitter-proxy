@@ -1,0 +1,21 @@
+2015-04-07 11:17:31,447 - [INFO] - from play in pool-6-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-04-07 11:18:07,433 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-04-07 11:18:59,817 - [DEBUG] - from application in play-akka.actor.default-dispatcher-11 
+Twitter statuses were mediated into [models.twitter.Status@171500cb, models.twitter.Status@515cd6f0, models.twitter.Status@4c2e8d48]
+
+2015-04-07 11:19:57,021 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+Twitter status will be updated with This is a test from a play application
+
+2015-04-07 11:19:57,691 - [DEBUG] - from application in play-akka.actor.default-dispatcher-13 
+Twitter statuses were mediated into [models.twitter.Status@32b8f527, models.twitter.Status@1cbc38c2, models.twitter.Status@4e24b447, models.twitter.Status@78574334]
+
+2015-04-07 11:24:18,919 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-04-07 11:24:44,941 - [DEBUG] - from application in play-akka.actor.default-dispatcher-17 
+Twitter statuses were mediated into [models.twitter.Status@715d4c03, models.twitter.Status@3c7dc8a5, models.twitter.Status@3e0063ac]
+

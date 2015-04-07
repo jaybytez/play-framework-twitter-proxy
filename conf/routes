@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /                                          controllers.DefaultController.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file                              controllers.Assets.at(path="/public", file)
+
+GET        /twitter-proxy/statuses/:screenName        controllers.TwitterProxyController.getStatuses(screenName:String)
+
+PUT        /twitter-proxy/statuses/:screenName        controllers.TwitterProxyController.updateStatuses(screenName:String, status ?= null)
